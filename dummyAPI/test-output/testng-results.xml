@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-26T13:41:06 IST" name="Suite" finished-at="2022-10-26T13:41:10 IST" duration-ms="3630">
+    <groups>
+    </groups>
+    <test started-at="2022-10-26T13:41:06 IST" name="Test" finished-at="2022-10-26T13:41:10 IST" duration-ms="3630">
+      <class name="org.testing.testcases.TC2_Postrecord">
+        <test-method signature="Testcase2()[pri:0, instance:org.testing.testcases.TC2_Postrecord@272113c4]" started-at="2022-10-26T13:41:08 IST" name="Testcase2" finished-at="2022-10-26T13:41:08 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase2 -->
+      </class> <!-- org.testing.testcases.TC2_Postrecord -->
+      <class name="org.testing.testcases.TC1_Getallrecords">
+        <test-method signature="testcase1()[pri:0, instance:org.testing.testcases.TC1_Getallrecords@55634720]" started-at="2022-10-26T13:41:06 IST" name="testcase1" finished-at="2022-10-26T13:41:08 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase1 -->
+      </class> <!-- org.testing.testcases.TC1_Getallrecords -->
+      <class name="org.testing.testcases.TC4_Putrecord">
+        <test-method signature="Testcase4()[pri:0, instance:org.testing.testcases.TC4_Putrecord@771a660]" started-at="2022-10-26T13:41:08 IST" name="Testcase4" finished-at="2022-10-26T13:41:09 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Testcase4 -->
+      </class> <!-- org.testing.testcases.TC4_Putrecord -->
+      <class name="org.testing.testcases.TC3_Getsinglerecord">
+        <test-method signature="testcase3()[pri:0, instance:org.testing.testcases.TC3_Getsinglerecord@73e9cf30]" started-at="2022-10-26T13:41:08 IST" name="testcase3" finished-at="2022-10-26T13:41:08 IST" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+      </class> <!-- org.testing.testcases.TC3_Getsinglerecord -->
+      <class name="org.testing.testcases.TC5_Deletrecord">
+        <test-method signature="testcase5()[pri:0, instance:org.testing.testcases.TC5_Deletrecord@2d52216b]" started-at="2022-10-26T13:41:09 IST" name="testcase5" finished-at="2022-10-26T13:41:10 IST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+      </class> <!-- org.testing.testcases.TC5_Deletrecord -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
