@@ -24,9 +24,15 @@
 	   <plugin>
 	    <groupId>org.apache.maven.plugins</groupId>
 	    <artifactId>maven-compiler-plugin</artifactId>
+        
 	    <configuration>
-	     <source>${jdk.level}</source>
-	     <target>${jdk.level}</target>
+	     <!-- Configuration needed to avoid build errors-->
+					<compilerArgs>
+						<args>-parameters</args>
+					</compilerArgs>
+					<source>1.8</source>
+					<target>1.8</target>
+					<!-- Configuration needed to avoid build errors-->
 	    </configuration>
 	   </plugin>
 	   <!-- Below plug-in is used to execute tests -->
